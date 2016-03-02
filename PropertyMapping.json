@@ -1,0 +1,415 @@
+{
+    "AcceleratorKey": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "AccessKey": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "AriaProperties": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "AriaRole": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "AutomationId": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "BoundingRectangle": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "ClassName": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "ClickablePoint": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "ControlType": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "ControllerFor": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": "aria-controls"
+    },
+    "Culture": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "DescribedBy": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "ExpandCollapse.ExpandCollapseState": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": "aria-expanded"
+    },
+    "FlowsFrom": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "FlowsTo": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": "aria-flowto"
+    },
+    "FrameworkId": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Grid.ColumnCount": {
+        "DisplayName": "",
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Grid.RowCount": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "GridItem.Column": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "GridItem.ColumnSpan": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "GridItem.ContainingGrid": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "GridItem.Row": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "GridItem.RowSpan": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "HasKeyboardFocus": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "HelpText": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "IsContentElement": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "IsControlElement": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "IsDataValidForForm": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "IsEnabled": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "IsKeyboardFocusable": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "IsOffscreen": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "IsPassword": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "IsPeripheral": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "IsRequiredForForm": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "ItemStatus": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "ItemType": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "LabeledBy": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Level": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "LiveSetting": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "LocalizedControlType": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Name": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "NativeWindowHandle": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "OptimizeForVisualContent": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Orientation": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "PositionInSet": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "ProcessId": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "ProviderDescription": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "RangeValue.IsReadOnly": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "RangeValue.LargeChange": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "RangeValue.Maximum": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "RangeValue.Minimum": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "RangeValue.SmallChange": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "RangeValue.Value": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "RuntimeId": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Scroll.HorizontalScrollPercent": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Scroll.HorizontalViewSize": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Scroll.HorizontallyScrollable": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Scroll.VerticalScrollPercent": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Scroll.VerticalViewSize": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Scroll.VerticallyScrollable": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Selection.CanSelectMultiple": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Selection.IsSelectionRequired": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "SelectionItem.IsSelected": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "SelectionItem.SelectionContainer": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "SizeOfSet": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Table.RowOrColumnMajor": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Toggle.ToggleState": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Value.IsReadOnly": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    },
+    "Value.Value": {
+        "DisplayName": "",
+        "DefaultDisplay": true,
+        "Description": "",
+        "AriaEquivalentProperty": ""
+    }
+}
