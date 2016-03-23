@@ -1,0 +1,16 @@
+{
+  "name": "A11yDevTool",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/MicrosoftEdge/A11yDevTool.git"
+  },
+  "engines": {
+    "node": "0.10.15"
+  },
+  "devDependencies": {
+    "xmlbuilder": "^7.0.0"
+  },
+  "dependencies": {
+  }
+}
+
