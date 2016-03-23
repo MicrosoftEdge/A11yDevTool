@@ -15,7 +15,7 @@
     },
     "AriaProperties": {
         "displayName": "", 
-		"type": "string",
+        "type": "string",
         "defaultDisplay": true,
         "description": "The AriaProperties property is a formatted string containing the Accessible Rich Internet Application (ARIA) property information for the automation element. For more information about mapping ARIA states and properties to UI Automation properties and functions, see UI Automation for W3C Accessible Rich Internet Applications Specification. AriaProperties is a collection of Name/Value pairs with delimiters of \"=\"(equals) and \";\" (semicolon), for example, \"checked=true;disabled=false\". The \"\\\" (backslash) is used as an escape character when these delimiter characters or \"\\\" appear in the values. For security and other reasons, the provider implementation of this property can take steps to validate the original ARIA properties; however, it is not required. The AriaProperties property has a variant type of VT_BSTR; the default value is an empty string.",
         "ariaEquivalent": ""
