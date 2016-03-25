@@ -3,7 +3,7 @@ var fs = require('fs');
 var builder = require('xmlbuilder');
 
 var outputFileName = 'accessibilityTool.strings'; 
-var startingIdNumber = 1000;  
+var startingIdNumber = 8169;  
 
 gulp.task('buildStrings', function(){    
     /*
