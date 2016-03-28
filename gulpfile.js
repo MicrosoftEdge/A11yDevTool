@@ -23,14 +23,15 @@ gulp.task('buildStrings', function(){
         var rootEl  = builder.create('resources');
         jsonA11yPropsKeys.forEach(function(key){
             var item = jsonA11yProps[key];
-            var name = 'a11y_' + key + '_tooltip';      
+            var name = 'a11y_' + key + '_tooltip';
+            var comment = 'String shown in the accessbility panel as the tooltip for the property name ' + key + '.';
             
             var stringObject = {
                 'string': {
                     '@id': id,
                     '@name': name,                   
                     'value': item.description,
-                    'comment': ''
+                    'comment': comment
                 }
             };
             
