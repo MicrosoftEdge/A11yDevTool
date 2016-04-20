@@ -5,7 +5,7 @@ var builder = require('xmlbuilder');
 var outputFileName = 'accessibilityTool.strings'; 
 var startingIdNumber = 8169;  
 
-gulp.task('buildStrings', function(){    
+gulp.task('buildStrings', function(){
     /*
     Example xml string
         
@@ -25,20 +25,25 @@ gulp.task('buildStrings', function(){
             var item = jsonA11yProps[key];
             var name = 'a11y_' + key + '_tooltip';
             var comment = 'String shown in the accessbility panel as the tooltip for the property name ' + key + '.';
+            var value = item.description;
+            if(!value || value === ""){
+                console.log(key);
+                value = " ";
+            }
             
             var stringObject = {
                 'string': {
                     '@id': id,
-                    '@name': name,                   
-                    'value': item.description,
+                    '@name': name,
+                    'value': value,
                     'comment': comment
                 }
             };
             
             rootEl.ele(stringObject);
             
-            id++;          
-        });    
+            id++;
+        });
         rootEl.end({ pretty: true});
         
         fs.writeFile(outputFileName, rootEl, function(err){
