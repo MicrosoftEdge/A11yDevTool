@@ -44,19 +44,19 @@
     <comment>String shown in the accessbility panel as the tooltip for the property name Culture.</comment>
   </string>
   <string id="8180" name="a11y_DescribedBy_tooltip">
-    <value>Identifies the DescribedBy property, which is an array of elements that provide more information about the automation element. DescribedBy is used when an automation element is explained by another segment of the application UI. For example, the property can point to a text element of "2,529 items in 85 groups, 10 items selected" from a complex custom list object. Instead of using the object model for clients to digest similar information, the DescribedBy property can offer quick access to the UI element that may already offer useful end-user information that describes the UI element. The DescribedBy property has a variant type of VT_UNKNOWN|VT_ARRAY; the default value is NULL.</value>
+    <value>Identifies the DescribedBy property, which is an array of elements that provide more information about the automation element. DescribedBy is used when an automation element is explained by another segment of the application UI. For example, the property can point to a text element of "2,529 items in 85 groups, 10 items selected" from a complex custom list object. Instead of using the object model for clients to digest similar information, the DescribedBy property can offer quick access to the UI element that may already offer useful end-user information that describes the UI element.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name DescribedBy.</comment>
   </string>
   <string id="8181" name="a11y_ExpandCollapse.ExpandCollapseState_tooltip">
-    <value> </value>
+    <value>The visibility of immediate child objects only; it does not refer to the visibility of all descendant objects.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name ExpandCollapse.ExpandCollapseState.</comment>
   </string>
   <string id="8182" name="a11y_FlowsFrom_tooltip">
-    <value> </value>
+    <value>The FlowsFrom property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the FlowsFrom property can specify multiple preceding elements, it typically contains only the prior element in the reading order.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name FlowsFrom.</comment>
   </string>
   <string id="8183" name="a11y_FlowsTo_tooltip">
-    <value>FlowsTo is an array of automation elements that suggests the reading order after the current automation element. The FlowsTo property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the FlowsTo property can specify multiple succeeding elements, it typically contains only the next element in the reading order. The FlowsTo property has a variant type of VT_UNKNOWN|VT_ARRAY; the default value is NULL.</value>
+    <value>FlowsTo is an array of automation elements that suggests the reading order after the current automation element. The FlowsTo property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the FlowsTo property can specify multiple succeeding elements, it typically contains only the next element in the reading order.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name FlowsTo.</comment>
   </string>
   <string id="8184" name="a11y_FrameworkId_tooltip">
@@ -64,31 +64,31 @@
     <comment>String shown in the accessbility panel as the tooltip for the property name FrameworkId.</comment>
   </string>
   <string id="8185" name="a11y_Grid.ColumnCount_tooltip">
-    <value> </value>
+    <value>The number of columns in the grid.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Grid.ColumnCount.</comment>
   </string>
   <string id="8186" name="a11y_Grid.RowCount_tooltip">
-    <value> </value>
+    <value>The number of rows in the grid.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Grid.RowCount.</comment>
   </string>
   <string id="8187" name="a11y_GridItem.Column_tooltip">
-    <value> </value>
+    <value>The zero-based index of the column that contains the item.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name GridItem.Column.</comment>
   </string>
   <string id="8188" name="a11y_GridItem.ColumnSpan_tooltip">
-    <value> </value>
+    <value>The number of columns spanned by the grid item.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name GridItem.ColumnSpan.</comment>
   </string>
   <string id="8189" name="a11y_GridItem.ContainingGrid_tooltip">
-    <value> </value>
+    <value>The element that contains the grid item.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name GridItem.ContainingGrid.</comment>
   </string>
   <string id="8190" name="a11y_GridItem.Row_tooltip">
-    <value> </value>
+    <value>The zero-based index of the row that contains the item.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name GridItem.Row.</comment>
   </string>
   <string id="8191" name="a11y_GridItem.RowSpan_tooltip">
-    <value> </value>
+    <value>The number of rows spanned by the grid item.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name GridItem.RowSpan.</comment>
   </string>
   <string id="8192" name="a11y_HasKeyboardFocus_tooltip">
@@ -116,11 +116,11 @@
     <comment>String shown in the accessbility panel as the tooltip for the property name IsEnabled.</comment>
   </string>
   <string id="8198" name="a11y_IsKeyboardFocusable_tooltip">
-    <value>A boolean value that indicates whether the automation element can accept keyboard focus.The IsKeyboardFocusable property has a variant type of VT_BOOL; the default value is FALSE.</value>
+    <value>A boolean value that indicates whether the automation element can accept keyboard focus.The IsKeyboardFocusable property has a variant type of bool the default value is false.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name IsKeyboardFocusable.</comment>
   </string>
   <string id="8199" name="a11y_IsOffscreen_tooltip">
-    <value>A boolean value that indicates whether the automation element is entirely scrolled out of view (for example, an item in a list box that is outside the viewport of the container object) or collapsed out of view (for example, an item in a tree view or menu, or in a minimized window). If the element has a clickable point that can cause it to receive the focus, the element is considered to be on-screen while a portion of the element is off screen. The value of the property is not affected by occlusion by other windows, or by whether the element is visible on a specific monitor. If the IsOffscreen property is TRUE, the UI element is scrolled off-screen or collapsed. The element is temporarily hidden, yet it remains in the end-user's perception and continues to be included in the UI model. The object can be brought back into view by scrolling, clicking a drop-down, and so on. Objects that the end-user does not perceive at all, or that are "programmatically hidden" (for example, a dialog box that has been dismissed, but the underlining object is still cached by the application) should not be in the automation element tree in the first place (instead of setting the state of IsOffscreen to TRUE). The IsOffscreen property has a variant type of VT_BOOL; the default value is FALSE.</value>
+    <value>A boolean value that indicates whether the automation element is entirely scrolled out of view (for example, an item in a list box that is outside the viewport of the container object) or collapsed out of view (for example, an item in a tree view or menu, or in a minimized window). If the element has a clickable point that can cause it to receive the focus, the element is considered to be on-screen while a portion of the element is off screen. The value of the property is not affected by occlusion by other windows, or by whether the element is visible on a specific monitor. If the IsOffscreen property is TRUE, the UI element is scrolled off-screen or collapsed. The element is temporarily hidden, yet it remains in the end-user's perception and continues to be included in the UI model. The object can be brought back into view by scrolling, clicking a drop-down, and so on. Objects that the end-user does not perceive at all, or that are "programmatically hidden" (for example, a dialog box that has been dismissed, but the underlining object is still cached by the application) should not be in the automation element tree in the first place (instead of setting the state of IsOffscreen to TRUE). The IsOffscreen property has a variant type of boolean; the default value is false.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name IsOffscreen.</comment>
   </string>
   <string id="8200" name="a11y_IsPassword_tooltip">
@@ -128,7 +128,7 @@
     <comment>String shown in the accessbility panel as the tooltip for the property name IsPassword.</comment>
   </string>
   <string id="8201" name="a11y_IsPeripheral_tooltip">
-    <value> </value>
+    <value>IsPeripheral is a Boolean value that indicates whether the automation element represents peripheral UI. Peripheral UI appears and supports user interaction, but does not take keyboard focus when it appears. Examples of peripheral UI includes popups, flyouts, context menus, or floating notifications.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name IsPeripheral.</comment>
   </string>
   <string id="8202" name="a11y_IsRequiredForForm_tooltip">
@@ -144,15 +144,15 @@
     <comment>String shown in the accessbility panel as the tooltip for the property name Itemtype.</comment>
   </string>
   <string id="8205" name="a11y_LabeledBy_tooltip">
-    <value>LabeledBy is an automation element that contains the text label for this element. This property can be used to retrieve, for example, the static text label for a combo box. The LabeledBy property has a variant type of VT_UNKNOWN; the default value is NULL.</value>
+    <value>LabeledBy is an automation element that contains the text label for this element. This property can be used to retrieve, for example, the static text label for a combo box.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name LabeledBy.</comment>
   </string>
   <string id="8206" name="a11y_Level_tooltip">
-    <value> </value>
+    <value>The Level property describes the location of an element inside a hierarchical or broken hierarchical structures. For example a bulleted/numbered list, headings, or other structured data items can have various parent/child relationships. Level describes where in the structure the item is located.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Level.</comment>
   </string>
   <string id="8207" name="a11y_LiveSetting_tooltip">
-    <value> </value>
+    <value>The LiveSetting is supported by an automation element that represents a live region. The LiveSetting property indicates the "politeness" level that a client should use to notify the user of changes to the live region. This property can be one of the values from the LiveSetting enumeration.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name LiveSetting.</comment>
   </string>
   <string id="8208" name="a11y_LocalizedControltype_tooltip">
@@ -168,15 +168,15 @@
     <comment>String shown in the accessbility panel as the tooltip for the property name NativeWindowHandle.</comment>
   </string>
   <string id="8211" name="a11y_OptimizeForVisualContent_tooltip">
-    <value> </value>
+    <value>The OptimizeForVisualContent property is a boolean value that indicates whether the provider exposes only elements that are visible. A provider can use this property to optimize performance when working with very large pieces of content. For example, as the user pages through a large piece of content, the provider can destroy content elements that are no longer visible. </value>
     <comment>String shown in the accessbility panel as the tooltip for the property name OptimizeForVisualContent.</comment>
   </string>
   <string id="8212" name="a11y_Orientation_tooltip">
-    <value> </value>
+    <value>The Orientation property indicates the orientation of the control represented by the automation element. The property is expressed as a value from the OrientationType enumerated type.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Orientation.</comment>
   </string>
   <string id="8213" name="a11y_PositionInSet_tooltip">
-    <value> </value>
+    <value>The PositionInSet property is a 1-based integer associated with an automation element. PositionInSet describes the ordinal location of the element within a set of elements which are considered to be siblings. PositionInSet works in coordination with the SizeOfSet property to describe the ordinal location in the set.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name PositionInSet.</comment>
   </string>
   <string id="8214" name="a11y_ProcessId_tooltip">
@@ -188,27 +188,27 @@
     <comment>String shown in the accessbility panel as the tooltip for the property name Providerdescription.</comment>
   </string>
   <string id="8216" name="a11y_RangeValue.IsReadOnly_tooltip">
-    <value> </value>
+    <value>A value that specifies whether the value of the element is read-only.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name RangeValue.IsReadOnly.</comment>
   </string>
   <string id="8217" name="a11y_RangeValue.LargeChange_tooltip">
-    <value> </value>
+    <value>The control-specific large-change value which is added to or subtracted from the elements Value property.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name RangeValue.LargeChange.</comment>
   </string>
   <string id="8218" name="a11y_RangeValue.Maximum_tooltip">
-    <value> </value>
+    <value>The maximum range value supported by the element.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name RangeValue.Maximum.</comment>
   </string>
   <string id="8219" name="a11y_RangeValue.Minimum_tooltip">
-    <value> </value>
+    <value>The minimum range value supported by the element.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name RangeValue.Minimum.</comment>
   </string>
   <string id="8220" name="a11y_RangeValue.SmallChange_tooltip">
-    <value> </value>
+    <value>The control-specific  small-change value which is added to or subtracted from the elements Value property.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name RangeValue.SmallChange.</comment>
   </string>
   <string id="8221" name="a11y_RangeValue.Value_tooltip">
-    <value> </value>
+    <value>The current value of the element.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name RangeValue.Value.</comment>
   </string>
   <string id="8222" name="a11y_RuntimeId_tooltip">
@@ -216,63 +216,63 @@
     <comment>String shown in the accessbility panel as the tooltip for the property name RuntimeId.</comment>
   </string>
   <string id="8223" name="a11y_Scroll.HorizontalScrollPercent_tooltip">
-    <value> </value>
+    <value>The horizontal scroll position as a percentage of the total content area within the control. </value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Scroll.HorizontalScrollPercent.</comment>
   </string>
   <string id="8224" name="a11y_Scroll.HorizontalViewSize_tooltip">
-    <value> </value>
+    <value>The horizontal size of the viewable region as a percentage of the total content area within the control. </value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Scroll.HorizontalViewSize.</comment>
   </string>
   <string id="8225" name="a11y_Scroll.HorizontallyScrollable_tooltip">
-    <value> </value>
+    <value>true if the control can scroll horizontally; otherwise false.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Scroll.HorizontallyScrollable.</comment>
   </string>
   <string id="8226" name="a11y_Scroll.VerticalScrollPercent_tooltip">
-    <value> </value>
+    <value>The vertical scroll position as a percentage of the total content area within the control. </value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Scroll.VerticalScrollPercent.</comment>
   </string>
   <string id="8227" name="a11y_Scroll.VerticalViewSize_tooltip">
-    <value> </value>
+    <value>The vertical size of the viewable region as a percentage of the total content area within the control. </value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Scroll.VerticalViewSize.</comment>
   </string>
   <string id="8228" name="a11y_Scroll.VerticallyScrollable_tooltip">
-    <value> </value>
+    <value>true if the control can scroll vertically; otherwise false.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Scroll.VerticallyScrollable.</comment>
   </string>
   <string id="8229" name="a11y_Selection.CanSelectMultiple_tooltip">
-    <value> </value>
+    <value>A value that specifies whether the UI Automation provider allows more than one child element to be selected concurrently. True if multiple selection is allowed; otherwise false.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Selection.CanSelectMultiple.</comment>
   </string>
   <string id="8230" name="a11y_Selection.IsSelectionRequired_tooltip">
-    <value> </value>
+    <value>A value that specifies whether the UI Automation provider requires at least one child element to be selected. True if selection is required; otherwise false.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Selection.IsSelectionRequired.</comment>
   </string>
   <string id="8231" name="a11y_SelectionItem.IsSelected_tooltip">
-    <value> </value>
+    <value>true if the item is selected; otherwise false.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name SelectionItem.IsSelected.</comment>
   </string>
   <string id="8232" name="a11y_SelectionItem.SelectionContainer_tooltip">
-    <value> </value>
+    <value>The container object. The default is a null reference.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name SelectionItem.SelectionContainer.</comment>
   </string>
   <string id="8233" name="a11y_SizeOfSet_tooltip">
-    <value> </value>
+    <value>The SizeOfSet property, which is a 1-based inteter associated with an automation element. SizeOfSet describes the count of automation elements in a group or set that are considered to be siblings. SizeOfSet works in coordination with the PositionInSet property to describe the count of items in the set.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name SizeOfSet.</comment>
   </string>
   <string id="8234" name="a11y_Table.RowOrColumnMajor_tooltip">
-    <value> </value>
+    <value>Contains values that specify whether data in a table should be read primarily by row or by column.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Table.RowOrColumnMajor.</comment>
   </string>
   <string id="8235" name="a11y_Toggle.ToggleState_tooltip">
-    <value> </value>
+    <value>Contains values that specify the ToggleState of a UI Automation element.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Toggle.ToggleState.</comment>
   </string>
   <string id="8236" name="a11y_Value.IsReadOnly_tooltip">
-    <value> </value>
+    <value>true if the value is read-only; false if it can be modified.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Value.IsReadOnly.</comment>
   </string>
   <string id="8237" name="a11y_Value.Value_tooltip">
-    <value> </value>
+    <value>The value of the UI Automation element as a string. The default is an empty string.</value>
     <comment>String shown in the accessbility panel as the tooltip for the property name Value.Value.</comment>
   </string>
 </resources>

@@ -85,9 +85,9 @@
     },
     "ExpandCollapse.ExpandCollapseState": {
         "displayName": "", 
-        "type": "",
+        "type": "string",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The visibility of immediate child objects only; it does not refer to the visibility of all descendant objects.",
         "ariaEquivalent": "aria-expanded"
     },
     "FlowsFrom": {
@@ -114,49 +114,49 @@
     "Grid.ColumnCount": {
         "displayName": "", 
         "type": "number",
-        "description": "",
+        "description": "The number of columns in the grid.",
         "ariaEquivalent": ""
     },
     "Grid.RowCount": {
         "displayName": "", 
         "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The number of rows in the grid.",
         "ariaEquivalent": ""
     },
     "GridItem.Column": {
         "displayName": "", 
         "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The zero-based index of the column that contains the item.",
         "ariaEquivalent": ""
     },
     "GridItem.ColumnSpan": {
         "displayName": "", 
         "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The number of columns spanned by the grid item.",
         "ariaEquivalent": ""
     },
     "GridItem.ContainingGrid": {
         "displayName": "", 
         "type": "element",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The element that contains the grid item.",
         "ariaEquivalent": ""
     },
     "GridItem.Row": {
         "displayName": "", 
         "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The zero-based index of the row that contains the item.",
         "ariaEquivalent": ""
     },
     "GridItem.RowSpan": {
         "displayName": "", 
         "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The number of rows spanned by the grid item.",
         "ariaEquivalent": ""
     },
     "HasKeyboardFocus": {
@@ -331,42 +331,42 @@
         "displayName": "", 
         "type": "bool",
         "defaultDisplay": true,
-        "description": "",
+        "description": "A value that specifies whether the value of the element is read-only.",
         "ariaEquivalent": "aria-readonly"
     },
     "RangeValue.LargeChange": {
         "displayName": "", 
-        "type": "",
+        "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The control-specific large-change value which is added to or subtracted from the elements Value property.",
         "ariaEquivalent": ""
     },
     "RangeValue.Maximum": {
         "displayName": "", 
-        "type": "",
+        "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The maximum range value supported by the element.",
         "ariaEquivalent": "aria-valuemax"
     },
     "RangeValue.Minimum": {
         "displayName": "", 
-        "type": "",
+        "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The minimum range value supported by the element.",
         "ariaEquivalent": "aria-valuemin"
     },
     "RangeValue.SmallChange": {
         "displayName": "", 
-        "type": "",
+        "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The control-specific  small-change value which is added to or subtracted from the elements Value property.",
         "ariaEquivalent": ""
     },
     "RangeValue.Value": {
         "displayName": "", 
-        "type": "",
+        "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The current value of the element.",
         "ariaEquivalent": "aria-valuenow"
     },
     "RuntimeId": {
@@ -378,72 +378,72 @@
     },
     "Scroll.HorizontalScrollPercent": {
         "displayName": "", 
-        "type": "",
+        "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The horizontal scroll position as a percentage of the total content area within the control. ",
         "ariaEquivalent": ""
     },
     "Scroll.HorizontalViewSize": {
         "displayName": "", 
-        "type": "",
+        "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The horizontal size of the viewable region as a percentage of the total content area within the control. ",
         "ariaEquivalent": ""
     },
     "Scroll.HorizontallyScrollable": {
         "displayName": "", 
-        "type": "",
+        "type": "bool",
         "defaultDisplay": true,
-        "description": "",
+        "description": "true if the control can scroll horizontally; otherwise false.",
         "ariaEquivalent": ""
     },
     "Scroll.VerticalScrollPercent": {
         "displayName": "", 
-        "type": "",
+        "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The vertical scroll position as a percentage of the total content area within the control. ",
         "ariaEquivalent": ""
     },
     "Scroll.VerticalViewSize": {
         "displayName": "", 
-        "type": "",
+        "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The vertical size of the viewable region as a percentage of the total content area within the control. ",
         "ariaEquivalent": ""
     },
     "Scroll.VerticallyScrollable": {
         "displayName": "", 
-        "type": "",
+        "type": "bool",
         "defaultDisplay": true,
-        "description": "",
+        "description": "true if the control can scroll vertically; otherwise false.",
         "ariaEquivalent": ""
     },
     "Selection.CanSelectMultiple": {
         "displayName": "", 
-        "type": "",
+        "type": "bool",
         "defaultDisplay": true,
-        "description": "",
+        "description": "A value that specifies whether the UI Automation provider allows more than one child element to be selected concurrently. True if multiple selection is allowed; otherwise false.",
         "ariaEquivalent": "aria-multiselect"
     },
     "Selection.IsSelectionRequired": {
         "displayName": "", 
-        "type": "",
+        "type": "bool",
         "defaultDisplay": true,
-        "description": "",
+        "description": "A value that specifies whether the UI Automation provider requires at least one child element to be selected. True if selection is required; otherwise false.",
         "ariaEquivalent": ""
     },
     "SelectionItem.IsSelected": {
         "displayName": "", 
-        "type": "",
+        "type": "bool",
         "defaultDisplay": true,
-        "description": "",
+        "description": "true if the item is selected; otherwise false.",
         "ariaEquivalent": ""
     },
     "SelectionItem.SelectionContainer": {
         "displayName": "", 
         "type": "",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The container object. The default is a null reference.",
         "ariaEquivalent": ""
     },
     "SizeOfSet": {
@@ -455,30 +455,30 @@
     },
     "Table.RowOrColumnMajor": {
         "displayName": "", 
-        "type": "",
+        "type": "string",
         "defaultDisplay": true,
-        "description": "",
+        "description": "Contains values that specify whether data in a table should be read primarily by row or by column.",
         "ariaEquivalent": ""
     },
     "Toggle.ToggleState": {
         "displayName": "", 
-        "type": "",
+        "type": "string",
         "defaultDisplay": true,
-        "description": "",
+        "description": "Contains values that specify the ToggleState of a UI Automation element.",
         "ariaEquivalent": ""
     },
     "Value.IsReadOnly": {
         "displayName": "", 
-        "type": "",
+        "type": "bool",
         "defaultDisplay": true,
-        "description": "",
+        "description": "true if the value is read-only; false if it can be modified.",
         "ariaEquivalent": "aria-readonly"
     },
     "Value.Value": {
         "displayName": "", 
-        "type": "",
+        "type": "string",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The value of the UI Automation element as a string. The default is an empty string.",
         "ariaEquivalent": ""
     }
 }
