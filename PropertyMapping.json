@@ -80,7 +80,7 @@
         "displayName": "", 
         "type": "element",
         "defaultDisplay": true,
-        "description": "Identifies the DescribedBy property, which is an array of elements that provide more information about the automation element. DescribedBy is used when an automation element is explained by another segment of the application UI. For example, the property can point to a text element of \"2,529 items in 85 groups, 10 items selected\" from a complex custom list object. Instead of using the object model for clients to digest similar information, the DescribedBy property can offer quick access to the UI element that may already offer useful end-user information that describes the UI element. The DescribedBy property has a variant type of VT_UNKNOWN|VT_ARRAY; the default value is NULL.",
+        "description": "Identifies the DescribedBy property, which is an array of elements that provide more information about the automation element. DescribedBy is used when an automation element is explained by another segment of the application UI. For example, the property can point to a text element of \"2,529 items in 85 groups, 10 items selected\" from a complex custom list object. Instead of using the object model for clients to digest similar information, the DescribedBy property can offer quick access to the UI element that may already offer useful end-user information that describes the UI element.",
         "ariaEquivalent": ""
     },
     "ExpandCollapse.ExpandCollapseState": {
@@ -94,14 +94,14 @@
         "displayName": "", 
         "type": "element",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The FlowsFrom property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the FlowsFrom property can specify multiple preceding elements, it typically contains only the prior element in the reading order.",
         "ariaEquivalent": ""
     },
     "FlowsTo": {
         "displayName": "", 
         "type": "element",
         "defaultDisplay": true,
-        "description": "FlowsTo is an array of automation elements that suggests the reading order after the current automation element. The FlowsTo property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the FlowsTo property can specify multiple succeeding elements, it typically contains only the next element in the reading order. The FlowsTo property has a variant type of VT_UNKNOWN|VT_ARRAY; the default value is NULL.",
+        "description": "FlowsTo is an array of automation elements that suggests the reading order after the current automation element. The FlowsTo property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the FlowsTo property can specify multiple succeeding elements, it typically contains only the next element in the reading order.",
         "ariaEquivalent": "aria-flowto"
     },
     "FrameworkId": {
@@ -205,14 +205,14 @@
         "displayName": "", 
         "type": "bool",
         "defaultDisplay": true,
-        "description": "A boolean value that indicates whether the automation element can accept keyboard focus.The IsKeyboardFocusable property has a variant type of VT_BOOL; the default value is FALSE.",
+        "description": "A boolean value that indicates whether the automation element can accept keyboard focus.The IsKeyboardFocusable property has a variant type of bool the default value is false.",
         "ariaEquivalent": ""
     },
     "IsOffscreen": {
         "displayName": "", 
         "type": "bool",
         "defaultDisplay": true,
-        "description": "A boolean value that indicates whether the automation element is entirely scrolled out of view (for example, an item in a list box that is outside the viewport of the container object) or collapsed out of view (for example, an item in a tree view or menu, or in a minimized window). If the element has a clickable point that can cause it to receive the focus, the element is considered to be on-screen while a portion of the element is off screen. The value of the property is not affected by occlusion by other windows, or by whether the element is visible on a specific monitor. If the IsOffscreen property is TRUE, the UI element is scrolled off-screen or collapsed. The element is temporarily hidden, yet it remains in the end-user's perception and continues to be included in the UI model. The object can be brought back into view by scrolling, clicking a drop-down, and so on. Objects that the end-user does not perceive at all, or that are \"programmatically hidden\" (for example, a dialog box that has been dismissed, but the underlining object is still cached by the application) should not be in the automation element tree in the first place (instead of setting the state of IsOffscreen to TRUE). The IsOffscreen property has a variant type of VT_BOOL; the default value is FALSE.",
+        "description": "A boolean value that indicates whether the automation element is entirely scrolled out of view (for example, an item in a list box that is outside the viewport of the container object) or collapsed out of view (for example, an item in a tree view or menu, or in a minimized window). If the element has a clickable point that can cause it to receive the focus, the element is considered to be on-screen while a portion of the element is off screen. The value of the property is not affected by occlusion by other windows, or by whether the element is visible on a specific monitor. If the IsOffscreen property is TRUE, the UI element is scrolled off-screen or collapsed. The element is temporarily hidden, yet it remains in the end-user's perception and continues to be included in the UI model. The object can be brought back into view by scrolling, clicking a drop-down, and so on. Objects that the end-user does not perceive at all, or that are \"programmatically hidden\" (for example, a dialog box that has been dismissed, but the underlining object is still cached by the application) should not be in the automation element tree in the first place (instead of setting the state of IsOffscreen to TRUE). The IsOffscreen property has a variant type of boolean; the default value is false.",
         "ariaEquivalent": "aria-hidden"
     },
     "IsPassword": {
@@ -226,7 +226,7 @@
         "displayName": "", 
         "type": "bool",
         "defaultDisplay": true,
-        "description": "",
+        "description": "IsPeripheral is a Boolean value that indicates whether the automation element represents peripheral UI. Peripheral UI appears and supports user interaction, but does not take keyboard focus when it appears. Examples of peripheral UI includes popups, flyouts, context menus, or floating notifications.",
         "ariaEquivalent": ""
     },
     "IsRequiredForForm": {
@@ -254,21 +254,21 @@
         "displayName": "", 
         "type": "element",
         "defaultDisplay": true,
-        "description": "LabeledBy is an automation element that contains the text label for this element. This property can be used to retrieve, for example, the static text label for a combo box. The LabeledBy property has a variant type of VT_UNKNOWN; the default value is NULL.",
+        "description": "LabeledBy is an automation element that contains the text label for this element. This property can be used to retrieve, for example, the static text label for a combo box.",
         "ariaEquivalent": ""
     },
     "Level": {
         "displayName": "", 
         "type": "",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The Level property describes the location of an element inside a hierarchical or broken hierarchical structures. For example a bulleted/numbered list, headings, or other structured data items can have various parent/child relationships. Level describes where in the structure the item is located.",
         "ariaEquivalent": ""
     },
     "LiveSetting": {
         "displayName": "", 
         "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The LiveSetting is supported by an automation element that represents a live region. The LiveSetting property indicates the \"politeness\" level that a client should use to notify the user of changes to the live region. This property can be one of the values from the LiveSetting enumeration.",
         "ariaEquivalent": ""
     },
     "LocalizedControltype": {
@@ -296,21 +296,21 @@
         "displayName": "", 
         "type": "",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The OptimizeForVisualContent property is a boolean value that indicates whether the provider exposes only elements that are visible. A provider can use this property to optimize performance when working with very large pieces of content. For example, as the user pages through a large piece of content, the provider can destroy content elements that are no longer visible. ",
         "ariaEquivalent": ""
     },
     "Orientation": {
         "displayName": "", 
         "type": "number",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The Orientation property indicates the orientation of the control represented by the automation element. The property is expressed as a value from the OrientationType enumerated type.",
         "ariaEquivalent": ""
     },
     "PositionInSet": {
         "displayName": "", 
         "type": "",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The PositionInSet property is a 1-based integer associated with an automation element. PositionInSet describes the ordinal location of the element within a set of elements which are considered to be siblings. PositionInSet works in coordination with the SizeOfSet property to describe the ordinal location in the set.",
         "ariaEquivalent": ""
     },
     "ProcessId": {
@@ -450,7 +450,7 @@
         "displayName": "", 
         "type": "",
         "defaultDisplay": true,
-        "description": "",
+        "description": "The SizeOfSet property, which is a 1-based inteter associated with an automation element. SizeOfSet describes the count of automation elements in a group or set that are considered to be siblings. SizeOfSet works in coordination with the PositionInSet property to describe the count of items in the set.",
         "ariaEquivalent": ""
     },
     "Table.RowOrColumnMajor": {
