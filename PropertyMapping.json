@@ -1,16 +1,16 @@
 {
     "AcceleratorKey": {
-        "displayName": "", 
+        "displayName": "Shortcut Key", 
         "type": "",
         "defaultDisplay": true,
-        "description": "The AcceleratorKey property is a string containing the accelerator key combinations for the automation element.  Accelerator key (also called shortcut key) combinations invoke an action. For example, CTRL+O is often used to invoke the Open file common dialog box. An automation element that has the accelerator key property may implement the Invoke control pattern for the action that is equivalent to the accelerator command. The AcceleratorKey property has a variant type of VT_BSTR; the default value is an empty string.",
+        "description": "The AcceleratorKey property is a string containing the accelerator key combinations for the automation element.  Accelerator key (also called shortcut key) combinations invoke an action. For example, CTRL+O is often used to invoke the Open file common dialog box. An automation element that has the accelerator key property may implement the Invoke control pattern for the action that is equivalent to the accelerator command.",
         "ariaEquivalent": ""
     },
     "AccessKey": {
-        "displayName": "", 
+        "displayName": "Access Key", 
         "type": "",
         "defaultDisplay": true,
-        "description": "The AccessKey property is a string containing the access key character for the automation element.  An access key (sometimes called a keyboard shortcut or mnemonic) is a character in the text of a menu, menu item, or label of a control such as a button, that activates the associated menu function. For example, to open the File menu, for which the access key is typically F, the user would press ALT+F. The AccessKey property has a variant type of VT_BSTR; the default value is an empty string.",
+        "description": "The AccessKey property is a string containing the access key character for the automation element.  An access key (sometimes called a keyboard shortcut or mnemonic) is a character in the text of a menu, menu item, or label of a control such as a button, that activates the associated menu function. For example, to open the File menu, for which the access key is typically F, the user would press ALT+F.",
         "ariaEquivalent": ""
     },
     "AriaProperties": {
@@ -21,184 +21,184 @@
         "ariaEquivalent": ""
     },
     "AriaRole": {
-        "displayName": "", 
+        "displayName": "Role", 
         "type": "string",
         "defaultDisplay": true,
         "description": "The AriaRole property is a string containing the Accessible Rich Internet Application (ARIA) role information for the automation element. For more information about mapping ARIA roles to UI Automation control types, see UI Automation for W3C Accessible Rich Internet Applications Specification.Note  As an option, the user agent can also offer a localized description of the W3C ARIA role in the LocalizedControlType property. When the localized string is not specified, the system will provide the default LocalizedControlType string for the element. The AriaRole property has a variant type of VT_BSTR; the default value is an empty string.",
         "ariaEquivalent": "role"
     },
     "AutomationId": {
-        "displayName": "", 
+        "displayName": "AutomationId", 
         "type": "number",
         "defaultDisplay": false,
         "description": "The AutomationId property is a string containing the UI Automation identifier (ID) for the automation element. When it is available, the AutomationId of an element must be the same in any instance of the application, regardless of the local language. The value should be unique among sibling elements, but not necessarily unique across the entire desktop. For example, multiple instances of an application, or multiple folder views in Microsoft Windows Explorer, may contain elements with the same AutomationId property, such as \"SystemMenuBar\". While support for AutomationId is always recommended for better testability, this property is not mandatory. Where it is supported, AutomationId is useful for creating a test automation script that runs regardless of the UI language. Clients should make no assumptions regarding the AutomationIds exposed by other applications. AutomationId is not guaranteed to be stable across different releases or builds of an application. The AutomationId property has a variant type of VT_BSTR; the default value is an empty string.",
         "ariaEquivalent": ""
     },
     "BoundingRectangle": {
-        "displayName": "", 
+        "displayName": "Bounding Rectangle", 
         "type": "string",
         "defaultDisplay": true,
         "description": "The BoundingRectangle property specifies the coordinates of the rectangle that completely encloses the automation element. The rectangle is expressed in physical screen coordinates. It can contain points that are not clickable if the shape or clickable region of the UI item is irregular, or if the item is obscured by other UI elements. The BoundingRectangle property has a variant type of VT_R8|VT_ARRAY; the default value is an empty rectangle. This property is NULL if the item is not currently displaying a user interface (UI).",
         "ariaEquivalent": ""
     },
     "ClassName": {
-        "displayName": "", 
+        "displayName": "Class Name", 
         "type": "",
         "defaultDisplay": true,
         "description": "The ClassName property is a string containing the class name for the automation element as assigned by the control developer. The class name depends on the implementation of the UI Automation provider and therefore cannot be counted on to be in a standard format. However, if the class name is known, it can be used to verify that an application is working with the expected automation element. The ClassName property has a variant type of VT_BSTR; the default value is an empty string.",
         "ariaEquivalent": ""
     },
     "ClickablePoint": {
-        "displayName": "", 
+        "displayName": "Clickable Point", 
         "type": "",
         "defaultDisplay": true,
-        "description": "TheClickablePoint property is a point on the automation element that can be clicked. An element cannot be clicked if it is completely or partially obscured by another window. The ClickablePoint property has a variant type of VT_R8|VT_ARRAY; the default value is NULL.",
+        "description": "TheClickablePoint property is a point on the element that can be clicked. An element cannot be clicked if it is completely or partially obscured by another element.",
         "ariaEquivalent": ""
     },
     "Controltype": {
-        "displayName": "", 
+        "displayName": "Control type", 
         "type": "string",
         "defaultDisplay": false,
-        "description": "The ControlType property is a class that identifies the type of the automation element. ControlType defines characteristics of the UI elements by well known UI control primitives such as button or check box. The ControlType property has a variant type of VT_I4. The default value is UIA_CustomControlTypeId, which should be avoided unless the automation element is representing a completely new type of control.", 
+        "description": "The ControlType property is a class that identifies the type of the automation element. ControlType defines characteristics of the UI elements by well known UI control primitives such as button or check box.", 
         "ariaEquivalent": ""
     },
     "ControllerFor": {
-        "displayName": "", 
+        "displayName": "Controller For", 
         "type": "element",
         "defaultDisplay": "",
-        "description": "ControllerFor property is an array of automation elements that are manipulated by the automation element that supports this property. ControllerFor is used when an automation element affects one or more segments of the application UI or the desktop; otherwise, it is hard to associate the impact of the control operation with UI elements. The ControllerFor property has a variant type of VT_UNKNOWN|VT_ARRAY; the default value is NULL.",
+        "description": "ControllerFor property is an array of automation elements that are manipulated by the automation element that supports this property. ControllerFor is used when an automation element affects one or more segments of the application UI or the desktop; otherwise, it is hard to associate the impact of the control operation with UI elements.",
         "ariaEquivalent": "aria-controls"
     },
     "Culture": {
-        "displayName": "", 
+        "displayName": "Culture", 
         "type": "number",
         "defaultDisplay": true,
-        "description": "The Culture contains a locale identifier for the automation element (for example, 0x0409 for \"en-US\" or English (United States)). Each locale has a unique identifier, a 32-bit value that consists of a language identifier and a sort order dentifier. The locale identifier is a standard international numeric abbreviation and has the components necessary to uniquely identify one of the installed operating system-defined locales. For more information, see Language Identifier Constants and Strings. This property may exist on a per-control basis, but typically is only available on an application level. The Culture property has a variant type of VT_I4; the default value is 0.",
+        "description": "The Culture contains a locale identifier for the automation element (for example, 0x0409 for \"en-US\" or English (United States)). Each locale has a unique identifier, a 32-bit value that consists of a language identifier and a sort order dentifier. The locale identifier is a standard international numeric abbreviation and has the components necessary to uniquely identify one of the installed operating system-defined locales.",
         "ariaEquivalent": ""
     },
     "DescribedBy": {
-        "displayName": "", 
+        "displayName": "Described By", 
         "type": "element",
         "defaultDisplay": true,
         "description": "Identifies the DescribedBy property, which is an array of elements that provide more information about the automation element. DescribedBy is used when an automation element is explained by another segment of the application UI. For example, the property can point to a text element of \"2,529 items in 85 groups, 10 items selected\" from a complex custom list object. Instead of using the object model for clients to digest similar information, the DescribedBy property can offer quick access to the UI element that may already offer useful end-user information that describes the UI element.",
         "ariaEquivalent": ""
     },
     "ExpandCollapse.ExpandCollapseState": {
-        "displayName": "", 
+        "displayName": "Expanded State", 
         "type": "string",
         "defaultDisplay": true,
         "description": "The visibility of immediate child objects only; it does not refer to the visibility of all descendant objects.",
         "ariaEquivalent": "aria-expanded"
     },
     "FlowsFrom": {
-        "displayName": "", 
+        "displayName": "Flows From", 
         "type": "element",
         "defaultDisplay": true,
         "description": "The FlowsFrom property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the FlowsFrom property can specify multiple preceding elements, it typically contains only the prior element in the reading order.",
         "ariaEquivalent": ""
     },
     "FlowsTo": {
-        "displayName": "", 
+        "displayName": "Flows To", 
         "type": "element",
         "defaultDisplay": true,
         "description": "FlowsTo is an array of automation elements that suggests the reading order after the current automation element. The FlowsTo property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the FlowsTo property can specify multiple succeeding elements, it typically contains only the next element in the reading order.",
         "ariaEquivalent": "aria-flowto"
     },
     "FrameworkId": {
-        "displayName": "", 
+        "displayName": "Framework Id", 
         "type": "string",
         "defaultDisplay": false,
         "description": "The FrameworkId property is a string containing the name of the underlying UI framework that the automation element belongs to. The FrameworkId enables client applications to process automation elements differently depending on the particular UI framework. Examples of property values include \"Win32\", \"WinForm\", and \"DirectUI\". The FrameworkId property has a variant type of VT_BSTR; the default value is an empty string.",
         "ariaEquivalent": ""
     },
     "Grid.ColumnCount": {
-        "displayName": "", 
+        "displayName": "Column Count", 
         "type": "number",
         "description": "The number of columns in the grid.",
         "ariaEquivalent": ""
     },
     "Grid.RowCount": {
-        "displayName": "", 
+        "displayName": "Row Count", 
         "type": "number",
         "defaultDisplay": true,
         "description": "The number of rows in the grid.",
         "ariaEquivalent": ""
     },
     "GridItem.Column": {
-        "displayName": "", 
+        "displayName": "Column", 
         "type": "number",
         "defaultDisplay": true,
         "description": "The zero-based index of the column that contains the item.",
         "ariaEquivalent": ""
     },
     "GridItem.ColumnSpan": {
-        "displayName": "", 
+        "displayName": "Column Span", 
         "type": "number",
         "defaultDisplay": true,
         "description": "The number of columns spanned by the grid item.",
         "ariaEquivalent": ""
     },
     "GridItem.ContainingGrid": {
-        "displayName": "", 
+        "displayName": "Containing Grid", 
         "type": "element",
         "defaultDisplay": true,
         "description": "The element that contains the grid item.",
         "ariaEquivalent": ""
     },
     "GridItem.Row": {
-        "displayName": "", 
+        "displayName": "Row", 
         "type": "number",
         "defaultDisplay": true,
         "description": "The zero-based index of the row that contains the item.",
         "ariaEquivalent": ""
     },
     "GridItem.RowSpan": {
-        "displayName": "", 
+        "displayName": "Row Span", 
         "type": "number",
         "defaultDisplay": true,
         "description": "The number of rows spanned by the grid item.",
         "ariaEquivalent": ""
     },
     "HasKeyboardFocus": {
-        "displayName": "", 
+        "displayName": "Has Keyboard Focus", 
         "type": "bool",
         "defaultDisplay": true,
         "description": "A bolean value that indicates whether the automation element has keyboard focus. The HasKeyboardFocus property has a variant type of VT_BOOL; the default value is FALSE.",
         "ariaEquivalent": ""
     },
     "HelpText": {
-        "displayName": "", 
+        "displayName": "Help Text", 
         "type": "string",
         "defaultDisplay": true,
-        "description": "A help text string associated with the automation element. The HelpText property is typically obtained from tooltip text associated with the element. The property can also be supported with placeholder text appearing in edit or list controls. For example, \"Type text here for search\" is a good candidate the HelpText property for an edit control that places the text prior to the user's actual input. However, it is not adequate for the name property of the edit control. When HelpText is supported, the string must match the application UI language or the operating system default UI language. The HelpText property has a variant type of VT_BSTR; the default value is NULL.",
+        "description": "A help text string associated with the automation element. The HelpText property is typically obtained from tooltip text associated with the element. The property can also be supported with placeholder text appearing in edit or list controls. For example, \"Type text here for search\" is a good candidate the HelpText property for an edit control that places the text prior to the user's actual input. However, it is not adequate for the name property of the edit control. When HelpText is supported, the string must match the application UI language or the operating system default UI language.",
         "ariaEquivalent": ""
     },
     "IsContentElement": {
-        "displayName": "", 
+        "displayName": "Is Content Element", 
         "type": "bool",
         "defaultDisplay": true,
-        "description": "A boolean value that specifies whether the element appears in the content view of the automation element tree. For more information, see UI Automation Tree Overview.  Note  For an element to appear in the content view, both the IsContentElement property and the IsControlElement property must be TRUE. The IsContentElement property has a variant type of VT_BOOL; the default value is TRUE.",
+        "description": "A boolean value that specifies whether the element appears in the content view of the automation element tree. For more information, see UI Automation Tree Overview.",
         "ariaEquivalent": ""
     },
     "IsControlElement": {
         "displayName": "", 
         "type": "bool",
         "defaultDisplay": true,
-        "description": "A boolean value that specifies whether the element appears in the control view of the automation element tree. For more information, see UI Automation Tree Overview. The IsControlElement property has a variant type of VT_BOOL; the default value is TRUE.",
+        "description": "A boolean value that specifies whether the element appears in the control view of the automation element tree. For more information, see UI Automation Tree Overview.",
         "ariaEquivalent": ""
     },
     "IsDataValidForForm": {
         "displayName": "", 
         "type": "bool",
         "defaultDisplay": true,
-        "description": "A boolean value that indicates whether the entered or selected value is valid for the form rule associated with the automation element. For example, if the user entered \"425-555-5555\" for a zip code field that requires 5 or 9 digits, the IsDataValidForForm property can be set to FALSE to indicate that the data is not valid. The IsDataValidForForm property has a variant type of VT_BOOL; the default value is FALSE.",
+        "description": "A boolean value that indicates whether the entered or selected value is valid for the form rule associated with the automation element. For example, if the user entered \"425-555-5555\" for a zip code field that requires 5 or 9 digits, the IsDataValidForForm property can be set to FALSE to indicate that the data is not valid.",
         "ariaEquivalent": ""
     },
     "IsEnabled": {
         "displayName": "", 
         "type": "bool",
         "defaultDisplay": true,
-        "description": "A boolean value that indicates whether the user interface (UI) item referenced by the automation element is enabled and can be interacted with.When the enabled state of a control is FALSE, it is assumed that child controls are also not enabled. Clients should not expect property-changed events from child elements when the state of the parent control changes. The IsEnabled property has a variant type of VT_BOOL; the default value is FALSE.",
+        "description": "A boolean value that indicates whether the user interface (UI) item referenced by the automation element is enabled and can be interacted with.When the enabled state of a control is FALSE, it is assumed that child controls are also not enabled. Clients should not expect property-changed events from child elements when the state of the parent control changes.",
         "ariaEquivalent": "aria-disabled"
     },
     "IsKeyboardFocusable": {
@@ -219,7 +219,7 @@
         "displayName": "", 
         "type": "bool",
         "defaultDisplay": true,
-        "description": "A boolean value that indicates whether the automation element contains protected content or a password. When the IsPassword property is TRUE and the element has the keyboard focus, a client application should disable keyboard echoing or keyboard input feedback that may expose the user's protected information. Attempting to access the Value property of the protected element (edit control) may cause an error to occur. The IsPassword property has a variant type of VT_BOOL; the default value is FALSE.",
+        "description": "A boolean value that indicates whether the automation element contains protected content or a password. When the IsPassword property is TRUE and the element has the keyboard focus, a client application should disable keyboard echoing or keyboard input feedback that may expose the user's protected information. Attempting to access the Value property of the protected element (edit control) may cause an error to occur.",
         "ariaEquivalent": "aria-secret"
     },
     "IsPeripheral": {
@@ -233,7 +233,7 @@
         "displayName": "", 
         "type": "bool",
         "defaultDisplay": true,
-        "description": "IsRequiredForForm is a Boolean value that indicates whether the automation element is required to be filled out on a form. The IsRequiredForForm property has a variant type of VT_BOOL; the default value is FALSE.",
+        "description": "IsRequiredForForm is a Boolean value that indicates whether the automation element is required to be filled out on a form.",
         "ariaEquivalent": ""
     },
     "ItemStatus": {
@@ -247,7 +247,7 @@
         "displayName": "", 
         "type": "",
         "defaultDisplay": true,
-        "description": "ItemType is a text string describing the type of the automation element. ItemType is used to obtain information about items in a list, tree view, or data grid. For example, an item in a file directory view might be a \"Document File\" or a \"Folder\". When ItemType is supported, the string must match the application UI language or the operating system default UI language. The ItemType property has a variant type of VT_BSTR; the default value is an empty string.",
+        "description": "ItemType is a text string describing the type of the automation element. ItemType is used to obtain information about items in a list, tree view, or data grid. For example, an item in a file directory view might be a \"Document File\" or a \"Folder\". When ItemType is supported, the string must match the application UI language or the operating system default UI language.",
         "ariaEquivalent": ""
     },
     "LabeledBy": {
@@ -275,21 +275,21 @@
         "displayName": "", 
         "type": "",
         "defaultDisplay": true,
-        "description": "LocalizedControlType is a text string describing the type of control that the automation element represents. The string should contain only lowercase characters: •Correct: \"button\" •Incorrect: \"Button\" When LocalizedControlType is not specified by the element provider, the default localized string is supplied by the framework, according to the control type of the element (for example, \"button\" for the button control type). An automation element with the Custom control type must support a localized control type string that represents the role of the element (for example, \"color picker\" for a custom control that enables users to choose and specify colors). When a custom value is supplied, the string must match the application UI language or the operating system default UI language.  The LocalizedControlType property has a variant type of VT_BSTR; the default value is an empty string.",
+        "description": "LocalizedControlType is a text string describing the type of control that the automation element represents. The string should contain only lowercase characters: •Correct: \"button\" •Incorrect: \"Button\" When LocalizedControlType is not specified by the element provider, the default localized string is supplied by the framework, according to the control type of the element (for example, \"button\" for the button control type). An automation element with the Custom control type must support a localized control type string that represents the role of the element (for example, \"color picker\" for a custom control that enables users to choose and specify colors). When a custom value is supplied, the string must match the application UI language or the operating system default UI language.",
         "ariaEquivalent": ""
     },
     "Name": {
         "displayName": "", 
         "type": "",
         "defaultDisplay": true,
-        "description": "Name is a string for the text representation of the automation element. The Name property should always be the same as the label text on screen. For example, Name must be \"Browse\" for the button element with the label \"Browse\". The Name property must not include the mnemonic character for the access keys (that is, \"&\"), which is underlined in the UI text presentation. Also, the Name property should not be an extended or modified version of the on-screen label because the inconsistency between the name and the label can cause confusion among client applications and users. When the corresponding label text is not visible on screen, or when it is replaced by graphics, alternative text should be chosen. The alternative text should be concise, intuitive, and localized to the application UI language, or to the operating system default UI language. The alternative text should not be a detailed description of the visual details, but a concise description of the UI function or feature as if it were labeled by simple text. For example, the Windows Start menu button is named \"Start\" (button) instead of \"Windows Logo on blue round sphere graphics\" (button). For more information, see Creating Text Equivalents for Images. When a UI label uses text graphics (for example, using \">>\" for a button that adds an item from right to left), the Name property should be overridden by an appropriate text alternative (for example, \"Add\"). However the practice of using text graphics as a UI label is discouraged due to both localization and accessibility concerns. The Name property must not include the control role or type information, such as \"button\" or \"list\"; otherwise, it will conflict with the text from the LocalizedControlType property. The Name property may not be used as a unique identifier among siblings. However, as long as it is consistent with the UI presentation, the same Name value can be supported among peers. For test automation, the clients should consider using the AutomationId or RuntimeId property. The Name property has a variant type of VT_BSTR; the default value is an empty string.",
+        "description": "Name is a string for the text representation of the automation element. The Name property should always be the same as the label text on screen. For example, Name must be \"Browse\" for the button element with the label \"Browse\". The Name property must not include the mnemonic character for the access keys (that is, \"&\"), which is underlined in the UI text presentation. Also, the Name property should not be an extended or modified version of the on-screen label because the inconsistency between the name and the label can cause confusion among client applications and users. When the corresponding label text is not visible on screen, or when it is replaced by graphics, alternative text should be chosen. The alternative text should be concise, intuitive, and localized to the application UI language, or to the operating system default UI language. The alternative text should not be a detailed description of the visual details, but a concise description of the UI function or feature as if it were labeled by simple text. For example, the Windows Start menu button is named \"Start\" (button) instead of \"Windows Logo on blue round sphere graphics\" (button). For more information, see Creating Text Equivalents for Images. When a UI label uses text graphics (for example, using \">>\" for a button that adds an item from right to left), the Name property should be overridden by an appropriate text alternative (for example, \"Add\"). However the practice of using text graphics as a UI label is discouraged due to both localization and accessibility concerns. The Name property must not include the control role or type information, such as \"button\" or \"list\"; otherwise, it will conflict with the text from the LocalizedControlType property. The Name property may not be used as a unique identifier among siblings. However, as long as it is consistent with the UI presentation, the same Name value can be supported among peers. For test automation, the clients should consider using the AutomationId or RuntimeId property.",
         "ariaEquivalent": ""
     },
     "NativeWindowHandle": {
         "displayName": "", 
         "type": "",
         "defaultDisplay": true,
-        "description": "NativeWindowHandle is an integer that represents the handle (HWND) of the automation element window, if it exists; otherwise, this property is 0. The NativeWindowHandle property has a variant type of VT_I4; the default value is 0.",
+        "description": "NativeWindowHandle is an integer that represents the handle (HWND) of the automation element window, if it exists; otherwise, this property is 0.",
         "ariaEquivalent": ""
     },
     "OptimizeForVisualContent": {
@@ -317,14 +317,14 @@
         "displayName": "", 
         "type": "number",
         "defaultDisplay": false,
-        "description": "An integer representing the process identifier (ID) of the automation element. The process identifier (ID) is assigned by the operating system. It can be seen in the PID column of the Processes tab in Task Manager. The ProcessId property has a variant type of VT_I4; the default value is 0.",
+        "description": "An integer representing the process identifier (ID) of the automation element. The process identifier (ID) is assigned by the operating system. It can be seen in the PID column of the Processes tab in Task Manager.",
         "ariaEquivalent": ""
     },
     "Providerdescription": {
         "displayName": "", 
         "type": "",
         "defaultDisplay": true,
-        "description": "ProviderDescription is a formatted string containing the source information of the UI Automation provider for the automation element, including proxy information. The ProviderDescription property has a variant type of VT_BSTR; the default value is an empty string",
+        "description": "ProviderDescription is a formatted string containing the source information of the UI Automation provider for the automation element, including proxy information.",
         "ariaEquivalent": ""
     },
     "RangeValue.IsReadOnly": {
@@ -373,7 +373,7 @@
         "displayName": "", 
         "type": "",
         "defaultDisplay": false,
-        "description": "RuntimeId is an array of integers representing the identifier for an automation element. The identifier is unique on the desktop, but it is only guaranteed to be unique within the UI of the desktop on which it was generated. Identifiers can be reused over time. The format of RuntimeId may change. The returned identifier should be treated as an opaque value and used only for comparison; for example, to determine whether an automation element is in the cache. The RuntimeId property has a variant type of VT_I4|VT_ARRAY; it has no default value.",
+        "description": "RuntimeId is an array of integers representing the identifier for an automation element. The identifier is unique on the desktop, but it is only guaranteed to be unique within the UI of the desktop on which it was generated. Identifiers can be reused over time. The format of RuntimeId may change. The returned identifier should be treated as an opaque value and used only for comparison; for example, to determine whether an automation element is in the cache.",
         "ariaEquivalent": ""
     },
     "Scroll.HorizontalScrollPercent": {
@@ -479,6 +479,20 @@
         "type": "string",
         "defaultDisplay": true,
         "description": "The value of the UI Automation element as a string. The default is an empty string.",
+        "ariaEquivalent": ""
+    },
+    "LocalizedLandmarkType": {
+        "displayName": "", 
+        "type": "string",
+        "defaultDisplay": true,
+        "description": "The LandmarkType property describes an element that represents a group of elements. For example, a search landmark could represent a set of related controls for searching.",
+        "ariaEquivalent": ""
+    },
+    "LandmarkType": {
+        "displayName": "", 
+        "type": "string",
+        "defaultDisplay": false,
+        "description": "The LandmarkType property describes an element that represents a group of elements. For example, a search landmark could represent a set of related controls for searching.",
         "ariaEquivalent": ""
     }
 }
